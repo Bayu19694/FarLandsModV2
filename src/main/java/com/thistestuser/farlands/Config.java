@@ -145,12 +145,12 @@ public class Config
 	
 	public static double adjust3E7D()
 	{
-		return instance.extendWB ? 2147483647D : 3E7D;
+		return instance.extendWB ? 12147483647D : 3E7D;
 	}
 	
 	public static double adjustN3E7D()
 	{
-		return instance.extendWB ? -2147483648D : -3E7D;
+		return instance.extendWB ? -12147483648D : -3E7D;
 	}
 	
 	public static int adjust3E7I()
@@ -175,17 +175,17 @@ public class Config
 	
 	public static double adjust29872D()
 	{
-		return instance.extendWB ? 2147483647D : 2.9999872E7D;
+		return instance.extendWB ? 12147483647D : 2.9999872E7D;
 	}
 	
 	public static double adjust29D()
 	{
-		return instance.extendWB ? 2147483647D : 29999999D;
+		return instance.extendWB ? 12147483647D : 29999999D;
 	}
 	
 	public static double adjustN29D()
 	{
-		return instance.extendWB ? -2147483648D : -29999999D;
+		return instance.extendWB ? -12147483648D : -29999999D;
 	}
 	
 	public static int adjust29I()
